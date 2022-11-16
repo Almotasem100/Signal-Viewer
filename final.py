@@ -27,7 +27,7 @@ class Remon(Ui_MainWindow):
         self.play1.clicked.connect(self.plotting)
         self.pause1.clicked.connect(self.StopTim)
         self.stop1.clicked.connect(self.CLR)
-        self.actionOpen.triggered.connect(self.showDialog)
+        # self.actionOpen.triggered.connect(self.showDialog)
     def TIMER(self):
         
         self.timer.start()
